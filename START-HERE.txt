@@ -1,0 +1,5 @@
+FREE version - no API key.
+1. Create a NEW GitHub repository.
+2. Upload ALL files of this folder (including the hidden .github folder).
+3. Actions tab > wait for green tick > download app-debug-apk from Artifacts.
+4. Install app-debug.apk. The app is named "Card Scanner FREE".
