@@ -25,7 +25,7 @@ object CardParser {
 
     /** All images passed together are treated as ONE card (front and back). */
     suspend fun extract(images: List<ByteArray>): List<Contact> {
-        val sb = StringBuilder()
+                val sb = StringBuilder()
         for (img in images) sb.append(ocr(img)).append("\n")
         val text = sb.toString()
         if (text.isBlank()) throw IOException("No text found. Retake the photo in good light.")
